@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import dados from './mock-data/dados_iniciais.json';
 
@@ -7,8 +8,12 @@ import BannerMain from './components/BannerMain';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 
+const AppWrapper = styled.div`
+  background-color: var(--grayDark);
+`;
+
 const App = () => (
-  <div style={{ background: '#141414' }}>
+  <AppWrapper>
     <Menu />
     <BannerMain
       videoTitle={dados.categorias[0].videos[0].titulo}
@@ -21,7 +26,7 @@ const App = () => (
     <Carousel ignoreFirstVideo category={dados.categorias[3]} />
     <Carousel ignoreFirstVideo category={dados.categorias[4]} />
     <Footer />
-  </div>
+  </AppWrapper>
 );
 
 export default App;
