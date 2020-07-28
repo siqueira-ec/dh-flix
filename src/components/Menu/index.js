@@ -1,20 +1,22 @@
 import React from 'react';
 
+// assets
 import Logo from '../../assets/img/dhflix_logo.png';
-import './styles.css';
 
+// components
+import { MenuWrapper, MenuLogo } from './styles';
 import Button from '../Button';
 
 const Menu = () => (
-  <nav className="Menu">
+  <MenuWrapper>
     <a href="/">
-      <img className="Logo" src={Logo} alt="DH-Flix Logo" />
+      <MenuLogo src={Logo} alt="DH-Flix Logo" />
     </a>
 
-    <Button as="a" className="ButtonLink" href="/">
+    <Button as="a" href="/">
       Novo Vídeo
     </Button>
-  </nav>
+  </MenuWrapper>
 );
 
 export default Menu;
