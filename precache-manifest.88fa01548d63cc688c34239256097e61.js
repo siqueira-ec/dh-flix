@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b2f7f5016c768696d9812a77919fe67",
+    "revision": "fff383289e0d23c16659880bddb1c7ee",
     "url": "/dh-flix/index.html"
   },
   {
-    "revision": "79c81a6561dbcbd0702e",
-    "url": "/dh-flix/static/css/main.6d5ecc96.chunk.css"
+    "revision": "4bf1800d9f5d61f05bfd",
+    "url": "/dh-flix/static/css/main.bae8d99b.chunk.css"
   },
   {
-    "revision": "416207100ed04bef202d",
-    "url": "/dh-flix/static/js/2.82356278.chunk.js"
+    "revision": "fb6f21ee6f2c2d5d6a6b",
+    "url": "/dh-flix/static/js/2.b29a687f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/dh-flix/static/js/2.82356278.chunk.js.LICENSE.txt"
+    "url": "/dh-flix/static/js/2.b29a687f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79c81a6561dbcbd0702e",
-    "url": "/dh-flix/static/js/main.e582a85f.chunk.js"
+    "revision": "4bf1800d9f5d61f05bfd",
+    "url": "/dh-flix/static/js/main.7cae8850.chunk.js"
   },
   {
     "revision": "043f20239164c55ee174",
