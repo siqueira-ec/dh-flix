@@ -1,18 +1,20 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import {
   VideoCardGroupContainer,
   VideoCardList,
   Title,
   ExtraLink,
-} from "./styles";
+} from './styles';
 
-import VideoCard from "./components/VideoCard";
+import VideoCard from './components/VideoCard';
 
 const VideoCardGroup = ({ ignoreFirstVideo, category }) => {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+  const { videos } = category;
 
   return (
     <VideoCardGroupContainer>
@@ -46,6 +48,24 @@ const VideoCardGroup = ({ ignoreFirstVideo, category }) => {
       </VideoCardList>
     </VideoCardGroupContainer>
   );
+};
+
+VideoCardGroup.defaultProps = {
+  ignoreFirstVideo: false,
+};
+
+VideoCardGroup.propTypes = {
+  ignoreFirstVideo: PropTypes.bool,
+  category: PropTypes.shape({
+    titulo: PropTypes.string,
+    cor: PropTypes.string,
+    link_extra: PropTypes.string,
+    videos: PropTypes.arrayOf(PropTypes.shape({
+      titulo: PropTypes.string,
+      url: PropTypes.string,
+    })),
+  }).isRequired,
+
 };
 
 export default VideoCardGroup;

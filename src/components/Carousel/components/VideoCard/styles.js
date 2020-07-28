@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
-  border: 2px solid ${({ categoryColor }) => categoryColor || "red"};
+  border: 2px solid ${({ categoryColor }) => categoryColor || 'red'};
   border-radius: 10px;
 
   text-decoration: none;

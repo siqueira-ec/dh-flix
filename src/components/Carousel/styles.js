@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Title = styled.h3`
   font-style: normal;
@@ -12,7 +12,7 @@ export const Title = styled.h3`
   line-height: 1;
   border-radius: 4px;
 
-  background-color: ${({ categoryColor }) => categoryColor || "red"};
+  background-color: ${({ categoryColor }) => categoryColor || 'red'};
 
   @media (max-width: 800px) {
     font-size: 18px;
