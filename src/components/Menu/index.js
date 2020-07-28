@@ -9,7 +9,7 @@ import Button from '../Button';
 
 const Menu = () => (
   <MenuWrapper>
-    <a href="/">
+    <a href="/dh-flix">
       <MenuLogo src={Logo} alt="DH-Flix Logo" />
     </a>
 
