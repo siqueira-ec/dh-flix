@@ -10,14 +10,8 @@ const Button = styled.button`
   outline: none;
   border-radius: 5px;
   text-decoration: none;
-  width: 180px;
-  height: 50px;
+  padding: 16px 24px;
   transition: opacity 0.3s;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 
   &:hover,
   &:focus {
