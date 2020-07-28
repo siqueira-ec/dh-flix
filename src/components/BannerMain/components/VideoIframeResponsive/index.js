@@ -1,22 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { VideoContainer, ResponsiveIframe } from './styles';
+import { VideoWrapper, ResponsiveIframe } from './styles';
 
-const YouTubeIframeResponsive = ({ youtubeID }) => (
-  <VideoContainer>
+const YouTubeIframeResponsive = ({ youtubeID, videoTitle }) => (
+  <VideoWrapper>
     <ResponsiveIframe
-      title="Titulo do Iframe"
+      title={videoTitle}
       src={`https://www.youtube.com/embed/${youtubeID}?autoplay=0&mute=1`}
       frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
-  </VideoContainer>
+  </VideoWrapper>
 );
+
+YouTubeIframeResponsive.defaultProps = {
+  videoTitle: 'Vídeo',
+};
 
 YouTubeIframeResponsive.propTypes = {
   youtubeID: PropTypes.string.isRequired,
+  videoTitle: PropTypes.string,
 };
 
 export default YouTubeIframeResponsive;
