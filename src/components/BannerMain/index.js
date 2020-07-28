@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import {
-  BannerMainContainer,
-  ContentAreaContainer,
+  BannerMainWrapper,
+  ContentAreaWrapper,
   WatchButton,
 } from './styles';
 
@@ -15,22 +15,22 @@ const BannerMain = ({ videoTitle, videoDescription, url }) => {
   const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
 
   return (
-    <BannerMainContainer backgroundImage={bgUrl}>
-      <ContentAreaContainer>
-        <ContentAreaContainer.Item>
-          <ContentAreaContainer.Title>{videoTitle}</ContentAreaContainer.Title>
+    <BannerMainWrapper backgroundImage={bgUrl}>
+      <ContentAreaWrapper>
+        <ContentAreaWrapper.Item>
+          <ContentAreaWrapper.Title>{videoTitle}</ContentAreaWrapper.Title>
 
-          <ContentAreaContainer.Description>
+          <ContentAreaWrapper.Description>
             {videoDescription}
-          </ContentAreaContainer.Description>
-        </ContentAreaContainer.Item>
+          </ContentAreaWrapper.Description>
+        </ContentAreaWrapper.Item>
 
-        <ContentAreaContainer.Item>
-          <VideoIframeResponsive youtubeID={youTubeID} />
+        <ContentAreaWrapper.Item>
+          <VideoIframeResponsive youtubeID={youTubeID} videoTitle={videoTitle} />
           <WatchButton>Assistir</WatchButton>
-        </ContentAreaContainer.Item>
-      </ContentAreaContainer>
-    </BannerMainContainer>
+        </ContentAreaWrapper.Item>
+      </ContentAreaWrapper>
+    </BannerMainWrapper>
   );
 };
 
