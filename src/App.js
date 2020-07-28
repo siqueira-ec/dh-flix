@@ -22,7 +22,6 @@ const App = () => (
     <Menu />
     <BannerMain
       videoTitle={dados.categorias[0].videos[0].titulo}
-      videoDescription="Teste"
       url={dados.categorias[0].videos[0].url}
     />
     <Carousel ignoreFirstVideo category={dados.categorias[0]} />

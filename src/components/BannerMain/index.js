@@ -34,9 +34,13 @@ const BannerMain = ({ videoTitle, videoDescription, url }) => {
   );
 };
 
+BannerMain.defaultProps = {
+  videoDescription: 'Descrição não fornecida.',
+};
+
 BannerMain.propTypes = {
   videoTitle: PropTypes.string.isRequired,
-  videoDescription: PropTypes.string.isRequired,
+  videoDescription: PropTypes.string,
   url: PropTypes.string.isRequired,
 };
 
