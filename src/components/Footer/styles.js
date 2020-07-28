@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const FooterBase = styled.footer`
+export const FooterBase = styled.footer`
   background: var(--black);
   border-top: 2px solid var(--primary);
   color: var(--white);
@@ -12,25 +12,20 @@ const FooterBase = styled.footer`
   justify-content: center;
   align-items: center;
 
-  & a img {
-    max-width: 252px;
-    margin-top: 20px;
-  }
-
-  & p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-  }
-
   @media (max-width: 800px) {
-    margin-bottom: 50px;
-
-    & a img {
-      max-width: 105px;
-    }
+    margin-bottom: 49px;
   }
 `;
 
-export default FooterBase;
+export const FooterLogo = styled.img`
+  max-width: 190px;
+  margin-top: 20px;
+
+  @media (max-width: 800px) {
+    max-width: 100px;
+  }
+`;
+
+export const FooterCopyright = styled.p`
+  margin-bottom: 20px;
+`;
