@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import dados from './mock-data/dados_iniciais.json';
+import dados from '../../mock-data/dados_iniciais.json';
 
-import Menu from './components/Menu';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
+import Menu from '../../components/Menu';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
 
 const AppWrapper = styled.div`
   background-color: var(--grayDark);
@@ -17,7 +17,7 @@ const AppWrapper = styled.div`
   }
 `;
 
-const App = () => (
+const Home = () => (
   <AppWrapper>
     <Menu />
     <BannerMain
@@ -33,4 +33,4 @@ const App = () => (
   </AppWrapper>
 );
 
-export default App;
+export default Home;
