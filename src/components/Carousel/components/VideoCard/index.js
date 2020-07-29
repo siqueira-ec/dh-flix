@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { VideoCardContainer } from './styles';
+import { VideoCardWrapper } from './styles';
 
 import { getYouTubeId } from '../../../../utils/utils';
 
@@ -11,7 +11,7 @@ const VideoCard = ({ videoTitle, videoURL, categoryColor }) => {
   )}/hqdefault.jpg`;
 
   return (
-    <VideoCardContainer
+    <VideoCardWrapper
       url={image}
       href={videoURL}
       target="_blank"

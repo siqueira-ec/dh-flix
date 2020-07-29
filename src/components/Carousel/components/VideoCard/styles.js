@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
-export const VideoCardContainer = styled.a`
+export const VideoCardWrapper = styled.a`
   border: 2px solid ${({ categoryColor }) => categoryColor || 'red'};
   border-radius: 10px;
 
   text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
   color: white;
 
   width: 298px;
@@ -16,19 +14,11 @@ export const VideoCardContainer = styled.a`
   background-size: cover;
   background-position: center;
 
-  position: relative;
-
-  display: flex;
-  align-items: flex-end;
-  padding: 16px;
+  display: inline-block;
 
   transition: opacity 0.3s;
   &:hover,
   &:focus {
     opacity: 0.5;
-  }
-
-  &:not(:first-child) {
-    margin-left: 20px;
   }
 `;
