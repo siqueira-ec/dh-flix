@@ -1,5 +1,5 @@
 [![LICENSE MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siqueira-ec/dh-flix/blob/master/LICENSE)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siqueira-ec/dh-flix/Deployment%20-%20GitHub%20Pages)
+![Deployment - GitHub Pages](https://github.com/siqueira-ec/dh-flix/workflows/Deployment%20-%20GitHub%20Pages/badge.svg)
 
 # DH-Flix
 
