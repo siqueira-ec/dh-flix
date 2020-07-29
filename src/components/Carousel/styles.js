@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const VideoCardGroupWrapper = styled.section`
+  color: white;
+  min-height: 197px;
+  margin-left: 5%;
+  margin-bottom: 16px;
+`;
+
 export const Title = styled.h3`
   font-style: normal;
   font-weight: normal;
@@ -10,7 +17,7 @@ export const Title = styled.h3`
   padding: 20px;
   background: red;
   line-height: 1;
-  border-radius: 4px;
+  border-radius: 5px;
 
   background-color: ${({ categoryColor }) => categoryColor || 'red'};
 
@@ -24,10 +31,12 @@ export const ExtraLink = styled.a`
   margin-left: 16px;
   text-decoration: none;
   transition: opacity 0.3s;
+
   &:hover,
   &:focus {
     opacity: 0.5;
   }
+
   @media (max-width: 800px) {
     display: block;
     margin-bottom: 16px;
@@ -47,11 +56,4 @@ export const VideoCardList = styled.ul`
   li {
     margin-right: 16px;
   }
-`;
-
-export const VideoCardGroupWrapper = styled.section`
-  color: white;
-  min-height: 197px;
-  margin-left: 5%;
-  margin-bottom: 16px;
 `;
