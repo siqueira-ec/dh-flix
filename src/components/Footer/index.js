@@ -9,9 +9,9 @@ const Footer = () => (
       <FooterLogo src={Logo} alt="DH-Flix Logo" />
     </a>
     <FooterCopyright>
-      Orgulhosamente criado durante a
+      Orgulhosamente criado durante a #ImersãoReact da
       {' '}
-      <a href="https://www.alura.com.br/">#Imersão React da Alura</a>
+      <a href="https://www.alura.com.br/">Alura</a>
     </FooterCopyright>
   </FooterBase>
 );
