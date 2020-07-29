@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {
-  VideoCardGroupContainer,
+  VideoCardGroupWrapper,
   VideoCardList,
   Title,
   ExtraLink,
@@ -17,7 +17,7 @@ const VideoCardGroup = ({ ignoreFirstVideo, category }) => {
   const { videos } = category;
 
   return (
-    <VideoCardGroupContainer>
+    <VideoCardGroupWrapper>
       {categoryTitle && (
         <>
           <Title categoryColor={categoryColor}>{categoryTitle}</Title>
@@ -46,7 +46,7 @@ const VideoCardGroup = ({ ignoreFirstVideo, category }) => {
           );
         })}
       </VideoCardList>
-    </VideoCardGroupContainer>
+    </VideoCardGroupWrapper>
   );
 };
 
