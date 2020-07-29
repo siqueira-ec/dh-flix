@@ -3,7 +3,7 @@
 
 # DH-Flix
 
-> :pencil: Projeto desenvolvido durante a _Imersão React_ da Alura, visa agregar vídeos do YouTube de variados temas de tecnologia, afim de servir como repositório de conhecimento e tutoriais.
+> :tada: Projeto desenvolvido durante a _Imersão React_ da Alura, visa agregar vídeos do YouTube de variados temas de tecnologia, afim de servir como repositório de conhecimento e tutoriais.
 
 ## Contribuindo
 
