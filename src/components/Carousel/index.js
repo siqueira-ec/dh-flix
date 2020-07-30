@@ -1,16 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {
-  VideoCardGroupWrapper,
-  VideoCardList,
-  Title,
-  ExtraLink,
-} from './styles';
-
+import { VideoCardGroupWrapper, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
+import Slider, { SliderItem } from './components/Slider';
 
-const VideoCardGroup = ({ ignoreFirstVideo, category }) => {
+const Carousel = ({ ignoreFirstVideo, category }) => {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
@@ -29,32 +24,32 @@ const VideoCardGroup = ({ ignoreFirstVideo, category }) => {
         </>
       )}
 
-      <VideoCardList>
+      <Slider>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
 
           return (
-            <li key={video.titulo}>
+            <SliderItem key={video.titulo}>
               <VideoCard
                 videoTitle={video.titulo}
                 videoURL={video.url}
                 categoryColor={categoryColor}
               />
-            </li>
+            </SliderItem>
           );
         })}
-      </VideoCardList>
+      </Slider>
     </VideoCardGroupWrapper>
   );
 };
 
-VideoCardGroup.defaultProps = {
+Carousel.defaultProps = {
   ignoreFirstVideo: false,
 };
 
-VideoCardGroup.propTypes = {
+Carousel.propTypes = {
   ignoreFirstVideo: PropTypes.bool,
   category: PropTypes.shape({
     titulo: PropTypes.string,
@@ -68,4 +63,4 @@ VideoCardGroup.propTypes = {
 
 };
 
-export default VideoCardGroup;
+export default Carousel;

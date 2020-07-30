@@ -1,19 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// assets
 import Logo from '../../assets/img/dhflix_logo.png';
 
-// components
 import { MenuWrapper, MenuLogo } from './styles';
 import Button from '../Button';
 
 const Menu = () => (
   <MenuWrapper>
-    <a href="/dh-flix">
+    <Link to="/">
       <MenuLogo src={Logo} alt="DH-Flix Logo" />
-    </a>
+    </Link>
 
-    <Button as="a" href="/">
+    <Button as={Link} to="/cadastro/video">
       Novo Vídeo
     </Button>
   </MenuWrapper>
