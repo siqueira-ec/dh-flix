@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dh-flix/static/css/main.6a448a24.chunk.css",
-    "main.js": "/dh-flix/static/js/main.55752b6d.chunk.js",
-    "main.js.map": "/dh-flix/static/js/main.55752b6d.chunk.js.map",
+    "main.js": "/dh-flix/static/js/main.c5c5741a.chunk.js",
+    "main.js.map": "/dh-flix/static/js/main.c5c5741a.chunk.js.map",
     "runtime-main.js": "/dh-flix/static/js/runtime-main.0c22b7f8.js",
     "runtime-main.js.map": "/dh-flix/static/js/runtime-main.0c22b7f8.js.map",
     "static/js/2.f7b3954a.chunk.js": "/dh-flix/static/js/2.f7b3954a.chunk.js",
     "static/js/2.f7b3954a.chunk.js.map": "/dh-flix/static/js/2.f7b3954a.chunk.js.map",
     "index.html": "/dh-flix/index.html",
-    "precache-manifest.85096526e3eb288e68439aad90151523.js": "/dh-flix/precache-manifest.85096526e3eb288e68439aad90151523.js",
+    "precache-manifest.535fb104f81d012aca6c2c776adcd7cb.js": "/dh-flix/precache-manifest.535fb104f81d012aca6c2c776adcd7cb.js",
     "service-worker.js": "/dh-flix/service-worker.js",
     "static/css/main.6a448a24.chunk.css.map": "/dh-flix/static/css/main.6a448a24.chunk.css.map",
     "static/js/2.f7b3954a.chunk.js.LICENSE.txt": "/dh-flix/static/js/2.f7b3954a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0c22b7f8.js",
     "static/js/2.f7b3954a.chunk.js",
     "static/css/main.6a448a24.chunk.css",
-    "static/js/main.55752b6d.chunk.js"
+    "static/js/main.c5c5741a.chunk.js"
   ]
 }
