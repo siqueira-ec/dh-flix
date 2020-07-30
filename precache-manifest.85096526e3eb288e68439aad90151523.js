@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34b1480ea7cf02347d531dc9357011ca",
+    "revision": "2559018882418d45a9a7a8ebae30bd19",
     "url": "/dh-flix/index.html"
   },
   {
-    "revision": "218f6e824bc4adf112f0",
+    "revision": "1732fb72a1fe07ef1aa8",
     "url": "/dh-flix/static/css/main.6a448a24.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dh-flix/static/js/2.f7b3954a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "218f6e824bc4adf112f0",
-    "url": "/dh-flix/static/js/main.e589bdfd.chunk.js"
+    "revision": "1732fb72a1fe07ef1aa8",
+    "url": "/dh-flix/static/js/main.55752b6d.chunk.js"
   },
   {
     "revision": "043f20239164c55ee174",
