@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Projeto desenvolvido durante a Imersão React da Alura, visa agregar vídeos do YouTube de variados temas de tecnologia, afim de servir como repositório de conhecimento e tutoriais.",
   "private": true,
-  "homepage": "https://siqueira-ec.github.io/dh-flix",
+  "homepage": "/dh-flix",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
