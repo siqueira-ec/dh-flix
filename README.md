@@ -1,13 +1,9 @@
+[![LICENSE MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siqueira-ec/dh-flix/blob/master/LICENSE)
+![Deployment - GitHub Pages](https://github.com/siqueira-ec/dh-flix/workflows/Deployment%20-%20GitHub%20Pages/badge.svg)
+
 # DH-Flix
 
-[![LICENSE MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siqueira-ec/dh-flix/blob/master/LICENSE)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siqueira-ec/dh-flix/Deployment%20-%20GitHub%20Pages)
-
-> :pencil: Projeto desenvolvido durante a _Imersão React_ da Alura
-
-## Do que se trata?
-
-Projeto para agregar vídeos do YouTube de variados temas de tecnologia, afim de servir como repositório de conhecimento e tutoriais.
+> :tada: Projeto desenvolvido durante a _Imersão React_ da Alura, visa agregar vídeos do YouTube de variados temas de tecnologia, afim de servir como repositório de conhecimento e tutoriais.
 
 ## Contribuindo
 
