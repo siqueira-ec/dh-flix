@@ -7,7 +7,7 @@ import { FooterBase, FooterLogo, FooterCopyright } from './styles';
 
 const Footer = () => (
   <FooterBase>
-    <Link to="/">
+    <Link to={`${process.env.PUBLIC_URL}/`}>
       <FooterLogo src={Logo} alt="DH-Flix Logo" />
     </Link>
     <FooterCopyright>

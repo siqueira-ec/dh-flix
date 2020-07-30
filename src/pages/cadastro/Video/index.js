@@ -8,7 +8,7 @@ function CadastroVideo() {
     <PageDefault>
       <h1>Cadastro de Vídeo</h1>
 
-      <Link to="/cadastro/categoria">
+      <Link to={`${process.env.PUBLIC_URL}/cadastro/categoria`}>
         Cadastrar Categoria
       </Link>
     </PageDefault>
