@@ -21,7 +21,7 @@ function CadastroCategoria() {
         </button>
       </form>
 
-      <Link to={`${process.env.PUBLIC_URL}/`}>
+      <Link to="/">
         Ir para home
       </Link>
     </PageDefault>

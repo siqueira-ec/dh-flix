@@ -8,11 +8,11 @@ import Button from '../Button';
 
 const Menu = () => (
   <MenuWrapper>
-    <Link to={`${process.env.PUBLIC_URL}/`}>
+    <Link to="/">
       <MenuLogo src={Logo} alt="DH-Flix Logo" />
     </Link>
 
-    <Button as={Link} to={`${process.env.PUBLIC_URL}/cadastro/video`}>
+    <Button as={Link} to="/cadastro/video">
       Novo Vídeo
     </Button>
   </MenuWrapper>
